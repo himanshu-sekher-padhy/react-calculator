@@ -1,0 +1,239 @@
+/* Reset
+body {
+  background-color: #1e1e1e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+} */
+
+.App {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.calculatorArea {
+  background-color: #111;;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+  width: 100%;
+  max-width: 360px;
+  margin: auto;
+}
+
+.calculator-header-part {
+  background-color: #e6e6e6;
+  border-radius: 6px;
+  padding: 15px 10px;
+  min-width: 360px;
+  max-width: 100%;
+  font-weight: bold;
+  color: #000;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: auto;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+/* Display font sizing */
+.resultArea {
+  word-wrap: break-word;
+  overflow-x: auto;
+  width: 100%;
+}
+
+/* Button Layout */
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 8px;
+}
+
+.calculator-body-part {
+  padding:0px;
+}
+
+/* ===================
+   Hyper-Realistic 3D Buttons
+   - True depth perception
+   - Instant visual feedback
+   - Premium tactile feel
+==================== */
+button {
+  /* Preserved original dimensions */
+  flex: 1;
+  min-width: 60px;
+  height: 50px;
+  
+  /* Visual styling */
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+  
+  /* 3D perspective setup */
+  transform-style: preserve-3d;
+  perspective: 500px;
+  
+  /* Animation timing */
+  transition: all 0.12s cubic-bezier(0.25, 1, 0.5, 1);
+  
+  /* True 3D shadow effect */
+  box-shadow:
+    0 6px 0 rgba(0,0,0,0.2),
+    0 7px 12px rgba(0,0,0,0.15),
+    inset 0 1px 0 rgba(255,255,255,0.15);
+}
+
+/* 3D Press Animation */
+button:active {
+  transform: translateY(5px) scale(0.98);
+  box-shadow:
+    0 1px 0 rgba(0,0,0,0.2),
+    inset 0 4px 8px rgba(0,0,0,0.3);
+  transition: all 0.08s ease-out;
+}
+
+/* Hover Elevation */
+button:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 0 rgba(0,0,0,0.2),
+    0 9px 15px rgba(0,0,0,0.2);
+}
+
+/* 3D Edge Highlight */
+button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.25),
+    rgba(255,255,255,0.05)
+  );
+  border-radius: 10px 10px 0 0;
+}
+
+/* Click Flash Effect */
+button:active::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255,255,255,0.2);
+  opacity: 0;
+  animation: clickFlash 0.3s ease-out;
+}
+
+@keyframes clickFlash {
+  0% { opacity: 1; transform: scale(0.9); }
+  100% { opacity: 0; transform: scale(1.1); }
+}
+
+/* ===================
+   Color System with Enhanced Feedback
+==================== */
+
+/* Function Buttons */
+.top-button {
+  background: linear-gradient(to bottom, #9c64ff, #7e3dff);
+  box-shadow: 0 6px 0 #5e1de0;
+}
+.top-button:active {
+  background: linear-gradient(to bottom, #8a52e6, #6c2be6);
+  box-shadow: 0 1px 0 #4e0dd0;
+}
+
+/* Memory Buttons */
+.btn-mem {
+  background: linear-gradient(to bottom, #4cdf82, #2ecf6c);
+  box-shadow: 0 6px 0 #1db955;
+}
+.btn-mem:active {
+  background: linear-gradient(to bottom, #3bcc71, #1dbc5b);
+  box-shadow: 0 1px 0 #0da944;
+}
+
+/* Digit Buttons */
+.btn-digit {
+  background: linear-gradient(to bottom, #4dabff, #2d9bff);
+  box-shadow: 0 6px 0 #0d7bd0;
+}
+.btn-digit:active {
+  background: linear-gradient(to bottom, #3c9aef, #1c8adf);
+  box-shadow: 0 1px 0 #0c6bc0;
+}
+
+/* Operation Buttons */
+.btn-operation {
+  background: linear-gradient(to bottom, #a0a0a0, #808080);
+  box-shadow: 0 6px 0 #606060;
+}
+.btn-operation:active {
+  background: linear-gradient(to bottom, #8f8f8f, #6f6f6f);
+  box-shadow: 0 1px 0 #4f4f4f;
+}
+
+/* Equals Button */
+.btn-equal {
+  background: linear-gradient(to bottom, #ff5a5a, #ff3a3a);
+  box-shadow: 0 6px 0 #df1a1a;
+}
+.btn-equal:active {
+  background: linear-gradient(to bottom, #ef4949, #df2929);
+  box-shadow: 0 1px 0 #bf0909;
+}
+/* App header */
+.app-header {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.app-title {
+  font-weight: bold;
+  color: #ffc107;
+}
+
+/* Copyright */
+.copy-right {
+  color: #888;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+/* .badge{
+  padding-left: 10px;
+
+} */
+
+/* Responsive Grid Adjustments */
+@media (max-width: 400px) {
+  button {
+    font-size: 16px;
+    height: 45px;
+  }
+  .calculator-header-part {
+    font-size: 24px;
+    height: 50px;
+  }
+}
