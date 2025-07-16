@@ -31,7 +31,7 @@ Welcome to the **React based Calculator** — a beautifully crafted, fully respo
 │
 ├── 📁 node_modules/                 # Project dependencies
 ├── 📁 public/
-│   ├── 📷 calculator.png           # Preview image
+│   ├── 📷 calculator.png           # Fav icon image
 │   ├── 📄 index.html               # HTML entry point
 │   ├── 📷 logo192.png              # PWA branding
 │   ├── 📷 logo512.png              # PWA branding
@@ -41,7 +41,7 @@ Welcome to the **React based Calculator** — a beautifully crafted, fully respo
 ├── 📁 src/
 │   ├── 📁 assets/
 │   │   ├── 📁 images/
-│   │   │   └── 🖼️ dummy.png       # Placeholder image
+│   │   │   └── 🖼️ dummy.png       # Preview image
 │   │   ├── 📁 styles/
 │   │   │   ├── 🎨 App.css         # Global styles
 │   │   │   └── 🎨 AppView.css     # App view-specific styles
