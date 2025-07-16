@@ -26,8 +26,8 @@ Welcome to the **React based Calculator** — a beautifully crafted, fully respo
 
 ## 🗂️ Project Structure
 
-```bash
-📦 elegant-react-calculator/
+
+📦 react-calculator/
 │
 ├── 📁 node_modules/                 # Project dependencies
 ├── 📁 public/
