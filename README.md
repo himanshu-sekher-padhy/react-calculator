@@ -6,7 +6,7 @@ Welcome to the **React based Calculator** — a beautifully crafted, fully respo
 
 ## 📸 Preview
 
-![Calculator Preview](assets/preview.png)
+![Calculator Preview](src/assets/images/preview.png)
 
 ## 📱 Features
 
