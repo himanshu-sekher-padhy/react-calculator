@@ -4,6 +4,10 @@ Welcome to the **React based Calculator** — a beautifully crafted, fully respo
 
 ---
 
+## 📸 Preview
+
+![Calculator Preview](assets/preview.png)
+
 ## 📱 Features
 
 ✨ Sleek, minimalist interface with vibrant color theory 
@@ -41,7 +45,8 @@ Welcome to the **React based Calculator** — a beautifully crafted, fully respo
 ├── 📁 src/
 │   ├── 📁 assets/
 │   │   ├── 📁 images/
-│   │   │   └── 🖼️ dummy.png       # Preview image
+│   │   │   └── 🖼️ dummy.png       # Goal image
+|   │   │   └── 🖼️ preview.png     # Preview image
 │   │   ├── 📁 styles/
 │   │   │   ├── 🎨 App.css         # Global styles
 │   │   │   └── 🎨 AppView.css     # App view-specific styles
