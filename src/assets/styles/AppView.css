@@ -59,6 +59,8 @@ body {
   padding:0px;
 }
 
+
+
 /* ===================
    Hyper-Realistic 3D Buttons
    - True depth perception
@@ -121,14 +123,16 @@ button::before {
   top: 0;
   left: 0;
   right: 0;
-  height: 40%;
+  height: 20%;
   background: linear-gradient(
     to bottom,
-    rgba(255,255,255,0.25),
-    rgba(255,255,255,0.05)
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0)
   );
   border-radius: 10px 10px 0 0;
+  pointer-events: none;
 }
+
 
 /* Click Flash Effect */
 button:active::after {
@@ -201,6 +205,8 @@ button:active::after {
   background: linear-gradient(to bottom, #ef4949, #df2929);
   box-shadow: 0 1px 0 #bf0909;
 }
+
+
 /* App header */
 .app-header {
   color: white;
