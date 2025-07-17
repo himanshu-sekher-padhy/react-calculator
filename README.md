@@ -46,7 +46,7 @@ Welcome to the **react-Calculator** — a beautifully crafted, fully responsive,
 │   ├── 📁 assets/
 │   │   ├── 📁 images/
 │   │   │   └── 🖼️ dummy.png       # Goal image
-|   │   │   └── 🖼️ preview.png     # Preview image
+│   │   │   └── 🖼️ preview.png     # Preview image
 │   │   ├── 📁 styles/
 │   │   │   ├── 🎨 App.css         # Global styles
 │   │   │   └── 🎨 AppView.css     # App view-specific styles
