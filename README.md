@@ -1,6 +1,6 @@
 # 🧮 React based Calculator App
 
-Welcome to the **React based Calculator** — a beautifully crafted, fully responsive, modern calculator built with 🔥 **ReactJS** and ❤️ **custom CSS**. This project was designed with a focus on **mobile-first UI/UX**, **3D button interaction**, and **smooth, tactile animations** for a real-world button feel.
+Welcome to the **react-Calculator** — a beautifully crafted, fully responsive, modern calculator built with **ReactJS** and **custom CSS**. This project was designed with a focus on **mobile-first UI/UX**, **3D button interaction**, and **smooth, tactile animations** for a real-world button feel.
 
 ---
 
